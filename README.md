@@ -101,6 +101,7 @@ pnpm config set strict-peer-dependencies false //设置 peers 严格对等依赖
 ### 五、开发以及使用
 
 由于 cli 工程 Alpha 内的更新速度快于正式版,鉴于减少 Bug 以及未知问题以及兼容,工程模板中 Dcloud SDK 建议跟随官网进行升级，同时搭配 HBuilder X Alpha 并且确保其内置的编译器进行同步与官网进行更新,以免出现了 app 客户端上出现的[uni-app 运行环境版本和编译器版本不一致的问题](https://ask.dcloud.net.cn/article/35627)
+
 ![](https://img-cdn-tc.dcloud.net.cn/uploads/article/20190412/625475b29032effbd28316ddec895b06.png)
 
 1. 下载 Hbuild X Alpha 版本 (推荐使用 vscode + volar)
@@ -113,6 +114,9 @@ pnpm dev:app
 或者直接在Hbuild X中使用原来方式启动
 ```
 
->@作者:Legend Tree
+
+> https://github.com/lvchuanqi/template-uni-app-cli
+> 
+> @Legend Tree
 >
->@时间:2022/05/26
+> @2022/05/26
