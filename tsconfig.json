@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"useDefineForClassFields": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"jsx": "preserve",
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"lib": ["esnext", "dom"],
+		"types": ["@dcloudio/types", "vite/client", "@types/node"],
+		/*定义基础路径和别名路径*/
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["src/*"],
+			"@components/": ["src/components/*"]
+		}
+	},
+
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

@@ -1,0 +1,11 @@
+/*全局引入IconFont的字体文件*/
+@import url("../iconfont/iconfont.css");
+/*全局声明IconFont的样式 ali-icon-*/
+[class^="ali-icon-"],
+[class*="ali-icon-"] {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

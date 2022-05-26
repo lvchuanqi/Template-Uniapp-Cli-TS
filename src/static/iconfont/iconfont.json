@@ -1,0 +1,30 @@
+{
+  "id": "3008791",
+  "name": "个人通用图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "ali-icon-",
+  "description": "常用图标集合",
+  "glyphs": [
+    {
+      "icon_id": "4933869",
+      "name": "点",
+      "font_class": "dian",
+      "unicode": "ec1e",
+      "unicode_decimal": 60446
+    },
+    {
+      "icon_id": "6050652",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "6050653",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    }
+  ]
+}
