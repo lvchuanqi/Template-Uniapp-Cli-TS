@@ -1,4 +1,22 @@
-## uni-app cli 工程化模板(Vue3 + Ts + Vite + Pinia)
+> ### 工程信息记录卡
+
+| 项目名     | xxx 信息系统管理                    |
+| ---------- | ----------------------------------- |
+| 包名       |                                     |
+| 生产环境   |                                     |
+| 客户端类型 | 'Android' &#124; 'iOS' &#124; 'web' |
+| 测试环境   |                                     |
+| ...        | ...                                 |
+| 备注       |                                     |
+
+> 重要信息 谨慎填写
+
+<p style="margin-top:60px"></p>
+
+<img src="https://static.vue-js.com/6280b990-ff19-11ea-85f6-6fac77c0c9b3.png" height="60px">
+<img src="https://bjetxgzv.cdn.bspapp.com/VKCEYUGU-dc-site/9a952c80-6080-11eb-a16f-5b3e54966275.png" height="60px">
+
+## **uni-app cli 工程化模板(Vue3 + Ts + Vite + Pinia)**
 
 ### 一、前言
 
@@ -20,12 +38,12 @@
 - Sass [官网](https://www.sass.hk/)
 - Less [官网](https://less.bootcss.com/)
 
-- Eslint(尚未集成) [官网](http://eslint.cn/)
+- Eslint[x] [官网](http://eslint.cn/)
 
 #### UI 库
 
 - vk-uview-ui [官网](https://vkuviewdoc.fsq.pub/) (注：vk 作者基于 uView 1.8.3 进行的 Fork,旨在升级提供可被 Vue3 所支持的 ui 库)
-- ThorUI(尚未集成) [官网](https://thorui.cn/doc/) (注：供 uni-app 以及 vue3 用户使用的 ui 库)
+- ThorUI[x] [官网](https://thorui.cn/doc/) (注：供 uni-app 以及 vue3 用户使用的 ui 库)
 
 ### 三、构建以及安装
 
@@ -66,8 +84,8 @@ pnpm config set strict-peer-dependencies false //设置 peers 严格对等依赖
 ### 四、目录结构
 
 ├─src<br>
-| ├─api ················································· Api集中管理器<br>
-| | └─service ······································· Api模块化目录<br>
+| ├─api ················································· Api 集中管理器<br>
+| | └─service ······································· Api 模块化目录<br>
 | ├─components ······························ 自定义组件<br>
 | ├─hooks ··········································· 全局 hook 管理<br>
 | ├─pages ··········································· 业务页面<br>
@@ -76,15 +94,15 @@ pnpm config set strict-peer-dependencies false //设置 peers 严格对等依赖
 | ├─store ············································· 装填管理<br>
 | | ├─index.ts<br>
 | | └─modules<br>
-| |     └─commonStore.ts ···················· common状态管理<br>
+| | └─commonStore.ts ···················· common 状态管理<br>
 | ├─types ············································ 全局类型声明<br>
-| | └─axios.d.ts ··································· axios类型案例<br>
+| | └─axios.d.ts ··································· axios 类型案例<br>
 | ├─utils ··············································· 工具类<br>
 | ├─App.vue<br>
 | ├─env.d.ts<br>
 | ├─main.ts<br>
-| ├─manifest.json ···························· 原uni-app manifest.json<br>
-| ├─pages.json ································· 原uni-app页面配置路由等<br>
+| ├─manifest.json ···························· 原 uni-app manifest.json<br>
+| ├─pages.json ································· 原 uni-app 页面配置路由等<br>
 | └─uni.scss<br>
 ├─.env ················································· 环境变量<br>
 ├─.env.development ····················· 开发环境变量<br>
@@ -102,7 +120,7 @@ pnpm config set strict-peer-dependencies false //设置 peers 严格对等依赖
 
 由于 cli 工程 Alpha 内的更新速度快于正式版,鉴于减少 Bug 以及未知问题以及兼容,工程模板中 Dcloud SDK 建议跟随官网进行升级，同时搭配 HBuilder X Alpha 并且确保其内置的编译器进行同步与官网进行更新,以免出现了 app 客户端上出现的[uni-app 运行环境版本和编译器版本不一致的问题](https://ask.dcloud.net.cn/article/35627)
 
-![](https://img-cdn-tc.dcloud.net.cn/uploads/article/20190412/625475b29032effbd28316ddec895b06.png)
+<img src="https://img-cdn-tc.dcloud.net.cn/uploads/article/20190412/625475b29032effbd28316ddec895b06.png" height="150px">
 
 1. 下载 Hbuild X Alpha 版本 (推荐使用 vscode + volar)
 2. 项目启动
@@ -114,9 +132,8 @@ pnpm dev:app
 或者直接在Hbuild X中使用原来方式启动
 ```
 
-
 > https://github.com/lvchuanqi/template-uni-app-cli
-> 
+>
 > @Legend Tree
 >
 > @2022/05/26
