@@ -43,7 +43,7 @@
 #### UI 库
 
 - vk-uview-ui [官网](https://vkuviewdoc.fsq.pub/) (注：vk 作者基于 uView 1.8.3 进行的 Fork,旨在升级提供可被 Vue3 所支持的 ui 库)
-- ThorUI[x] [官网](https://thorui.cn/doc/) (注：供 uni-app 以及 vue3 用户使用的 ui 库)
+- ThorUI [官网](https://thorui.cn/doc/) (注：供 uni-app 以及 vue3 用户使用的 ui 库)
 
 ### 三、构建以及安装
 

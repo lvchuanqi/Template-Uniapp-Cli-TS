@@ -1,7 +1,9 @@
 {
 	"easycom": {
+		"autoscan": true,
 		"custom": {
-			"^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue"
+			"^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue",
+			"tui-(.*)": "thorui-uni/lib/thorui/tui-$1/tui-$1.vue"
 		}
 	},
 	"pages": [
@@ -16,7 +18,7 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
-		},
+		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

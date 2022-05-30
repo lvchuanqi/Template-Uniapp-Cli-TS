@@ -46,6 +46,7 @@
 		"@dcloudio/uni-quickapp-webview": "3.0.0-alpha-3041220220523001",
 		"axios": "^0.27.2",
 		"pinia": "^2.0.14",
+		"thorui-uni": "^1.9.0",
 		"vk-uview-ui": "^1.3.3",
 		"vue": "^3.2.36",
 		"vue-i18n": "^9.1.10",

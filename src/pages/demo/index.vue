@@ -6,6 +6,11 @@
 		<text class="text" @click="storeActive">购物车加1(pinia)</text>
 
 		<view class="ali-icon-dian">22</view>
+
+		<tui-button>页面主操作</tui-button>
+		<tui-button type="warning">页面次要操作</tui-button>
+		<tui-button type="danger">页面次要操作</tui-button>
+		<tui-button type="gray-primary">页面次要操作</tui-button>
 	</view>
 </template>
 
