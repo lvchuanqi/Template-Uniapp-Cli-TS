@@ -5,13 +5,13 @@
 	},
 	"pages": [
 		{
-			"path": "pages/login/Login",
+			"path": "pages/index/index",
 			"style": {
 				"app-plus": {
 					"titleNView": false
 				},
 				"navigationStyle": "custom",
-				"navigationBarTitleText": "登录"
+				"navigationBarTitleText": "首页"
 			}
 		}
 	],
