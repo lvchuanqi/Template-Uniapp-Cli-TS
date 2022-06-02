@@ -1,14 +1,14 @@
 > ### 工程信息记录卡
 
-| 项目名     | xxx 信息系统管理                    |
-| ---------- | ----------------------------------- |
-| 包名       |                                     |
-| 生产环境   |                                     |
-| 客户端类型 | 'Android' &#124; 'iOS' &#124; 'web' |
-| 测试环境   |                                     |
-| ...        | ...                                 |
-| 备注       |                                     |
+| 项目名     | 山水青 OA                                         |
+| ---------- | ------------------------------------------------- |
+| 包名       | com.chinact.mobile.oa.ssq                         |
+| 开发环境   | http://192.168.140.103:83/ssq/release/index.xhtml |
+| 生产环境   |                                                   |
+| 客户端类型 | 仅 Android                                        |
 
+> 备注: _固网后台经沈阳兴华华亿轨道交通 OA 系统 fork 而来，手机端遵遵循同一 App 进行接口和样式的引用。(兴华华亿 Svn:http://192.168.100.93:8443/projects/MADE_SHENYANG_XHHYGDJT/OA/Trunk/Source Code/app)_
+>
 > 重要信息 谨慎填写
 
 <p style="margin-top:60px"></p>
@@ -42,8 +42,7 @@
 
 #### UI 库
 
-- vk-uview-ui [官网](https://vkuviewdoc.fsq.pub/) (注：vk 作者基于 uView 1.8.3 进行的 Fork,旨在升级提供可被 Vue3 所支持的 ui 库)
-- ThorUI [官网](https://thorui.cn/doc/) (注：供 uni-app 以及 vue3 用户使用的 ui 库)
+- tmui[x] [官网](https://tmui.design/) (注：支持vue3 ts pinia并由驱动 暂未开源)
 
 ### 三、构建以及安装
 
@@ -91,7 +90,7 @@ pnpm config set strict-peer-dependencies false //设置 peers 严格对等依赖
 | ├─pages ··········································· 业务页面<br>
 | ├─plugins ········································ 旨在使用 Install 方式开发的插件<br>
 | ├─static ············································ 静态文件图片/css 等<br>
-| ├─store ············································· 装填管理<br>
+| ├─store ············································· 状态管理<br>
 | | ├─index.ts<br>
 | | └─modules<br>
 | | └─commonStore.ts ···················· common 状态管理<br>

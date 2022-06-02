@@ -1,29 +1,27 @@
 {
 	"easycom": {
 		"autoscan": true,
-		"custom": {
-			"^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue",
-			"tui-(.*)": "thorui-uni/lib/thorui/tui-$1/tui-$1.vue"
-		}
+		"custom": {}
 	},
 	"pages": [
 		{
-			"path": "pages/index/index",
+			"path": "pages/login/Login",
 			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		},
-		{
-			"path": "pages/demo/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "登录"
 			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#1793f9",
+		"backgroundColor": "#F8F8F8",
+		"softinputNavBar": "none",
+		"app-plus": {
+			"bounce": "none"
+		}
 	}
 }

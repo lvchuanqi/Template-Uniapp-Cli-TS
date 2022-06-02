@@ -10,6 +10,8 @@
 		"resolveJsonModule": true,
 		"esModuleInterop": true,
 		"lib": ["esnext", "dom"],
+		"forceConsistentCasingInFileNames": true,
+		"listFiles": true,
 		"types": ["@dcloudio/types", "vite/client", "@types/node"],
 		/*定义基础路径和别名路径*/
 		"baseUrl": "./",
